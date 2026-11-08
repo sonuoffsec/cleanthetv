@@ -4,7 +4,7 @@
 
 <p align="center">
   <img src="docs/before-after.jpg" alt="Before: a stock Android TV home screen full of promoted content. After: the CleanTheTV home screen with a dock of your own apps." width="800"><br>
-  <sub><i>Concept illustration of the idea, not a screenshot. Real screenshots of the themes are further down.</i></sub>
+  <sub><i>Concept illustration of the idea, not a screenshot.</i></sub>
 </p>
 
 <p align="center">
@@ -100,9 +100,11 @@ starting point, review every line, and then run `setup -ListFile <file> -DryRun`
 | `terminal-dark` | Near-black with a blue glow, a shell-style line in the middle of Home, dark cards, and a coloured glow that follows the focused app. No clock. |
 | `aurora-glass` | A flowing violet, blue and orange gradient with a frosted-glass dock, the clock and a greeting. |
 
-![terminal-dark](docs/screens/terminal-dark.jpg)
+![terminal-dark theme (concept illustration)](docs/concepts/terminal-dark.jpg)
 
-![aurora-glass](docs/screens/aurora-glass.jpg)
+![aurora-glass theme (concept illustration)](docs/concepts/aurora-glass.jpg)
+
+*These are concept illustrations of each look, not screenshots: the real launcher differs in details, such as having no logo in the header. The guest-cast QR is the code at the top right of the first one.*
 
 Make your own by copying a folder in [`themes/`](themes/) and editing `config.json`. Every key is listed in
 [`themes/README.md`](themes/README.md).
@@ -119,9 +121,9 @@ When the TV is on a listed network, Home shows a QR code that joins it. Scanning
 **same Wi-Fi as the TV**; they then use **Cast / Smart View** on the phone and pick the TV. On any other network the QR is
 hidden, so it never shows a code that would not work.
 
-![guest-cast QR (sample code)](docs/screens/guest-qr.jpg)
 
-*The code above is a sample, not a real network.*
+
+
 
 Read [the limits and the security note](docs/guest-cast-qr.md) before using it: the QR contains the password.
 
