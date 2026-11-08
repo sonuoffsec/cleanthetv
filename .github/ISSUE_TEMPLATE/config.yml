@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: A question, or "does it work on my TV?"
+    url: https://github.com/sonuoffsec/cleanthetv/discussions
+    about: Ask in Discussions. Issues are for bugs and TV lists.

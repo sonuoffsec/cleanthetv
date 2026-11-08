@@ -1,0 +1,40 @@
+{
+  "dock_apps": [
+    "com.google.android.youtube.tv",
+    "com.netflix.ninja",
+    "com.amazon.amazonvideo.livingroom",
+    "com.internet.tvbrowser",
+    "com.android.gallery3d",
+    "com.mitv.gallery"
+  ],
+  "fill_dock": false,
+  "hidden_apps": [],
+  "app_banners": [
+    "com.internet.tvbrowser=banner_web",
+    "com.android.gallery3d=banner_photos",
+    "com.mitv.gallery=banner_photos"
+  ],
+  "columns": 4,
+  "rows_below_dock": 0,
+  "background_color": "#000000",
+  "wallpaper": true,
+  "wallpaper_true_color": true,
+  "wallpaper_dim": 72,
+  "dock_glass": true,
+  "dock_opacity": 30,
+  "dock_even_padding": true,
+  "dock_title": false,
+  "always_show_names": true,
+  "icon_only_buttons": true,
+  "icon_only_inputs": true,
+  "ambient_glow": true,
+  "app_glow": true,
+  "app_library": true,
+  "library_button": true,
+  "show_library_pill": false,
+  "show_clock": false,
+  "show_greeting": true,
+  "header_quote": "Every day is a new chance to become better",
+  "header_quote_style": "terminal",
+  "wifi_qr_networks": []
+}
