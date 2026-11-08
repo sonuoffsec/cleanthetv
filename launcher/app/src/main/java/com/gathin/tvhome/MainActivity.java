@@ -2858,7 +2858,7 @@ public class MainActivity extends Activity implements AppAdapter.TileListener {
         String tvName = android.provider.Settings.Global.getString(getContentResolver(), "device_name");
         if (tvName == null || tvName.trim().isEmpty()) tvName = "TV";
         ((TextView) findViewById(R.id.wifiQrCaption)).setText("Scan to join Wi-Fi");
-        ((TextView) findViewById(R.id.wifiQrHint)).setText("then Cast screen to “" + tvName.trim() + "”");
+        ((TextView) findViewById(R.id.wifiQrHint)).setText("then Cast screen to \u201C" + tvName.trim() + "\u201D");
         box.setVisibility(View.VISIBLE);
     }
 

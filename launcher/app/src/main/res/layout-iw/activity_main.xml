@@ -419,6 +419,59 @@
         </FrameLayout>
     </LinearLayout>
 
+    <!-- header_quote: your own line, centred on the screen. Hidden unless header_quote is set. -->
+    <TextView
+        android:id="@+id/headerQuote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:maxWidth="900dp"
+        android:visibility="gone"
+        android:focusable="false"
+        android:clickable="false"
+        android:importantForAccessibility="no" />
+
+    <!-- wifi_qr_networks: a QR code that joins the Wi-Fi the TV is on. Hidden unless that network is listed. -->
+    <LinearLayout
+        android:id="@+id/wifiQrBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:layout_marginEnd="56dp"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:visibility="gone"
+        android:focusable="false"
+        android:clickable="false"
+        android:importantForAccessibility="no">
+
+        <ImageView
+            android:id="@+id/wifiQrImage"
+            android:layout_width="112dp"
+            android:layout_height="112dp"
+            android:scaleType="fitXY"
+            android:importantForAccessibility="no" />
+
+        <TextView
+            android:id="@+id/wifiQrCaption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#FFFFFFFF"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/wifiQrHint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textColor="#FFA0AEC4"
+            android:textSize="11sp" />
+    </LinearLayout>
+
     <!-- The single floating glass highlight that springs between tiles. -->
     <com.gathin.tvhome.GlassView
         android:id="@+id/glass"

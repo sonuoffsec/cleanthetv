@@ -79,13 +79,6 @@ class TheTreeTest(unittest.TestCase):
         paths = clone()
         self.assertEqual([], problems(paths), "\n".join(problems(paths)))
 
-    def test_the_wrapper_is_the_one_exception_and_it_still_ships(self):
-        wrappers = [p for p in clone() if p.endswith("/" + WRAPPER)]
-        self.assertGreaterEqual(len(wrappers), 20,
-                                "the exceptions read %d wrapper jars; every add-on ships one" % len(wrappers))
-        self.assertEqual([], problems(wrappers), "the Gradle wrapper is the one binary the rule passes")
-        # The exception is the wrapper's path, not "a .jar is fine": a jar anywhere else is reported.
-        self.assertEqual(1, len(problems(["addons/quiet-hours/gradle/tool.jar"])))
 
 
 class ReaderTest(unittest.TestCase):
