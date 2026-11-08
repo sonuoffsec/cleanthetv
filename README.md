@@ -1,5 +1,10 @@
 <p align="center">
-  <img src="docs/banner.png" alt="CleanTheTV. Your TV, clean and calm. No ads, no root, nothing uninstalled, one-line restore." width="800">
+  <img src="docs/banner.jpg" alt="CleanTheTV. Your TV, clean and calm. No ads, no bloat, nothing uninstallable, a pure TV experience." width="800">
+</p>
+
+<p align="center">
+  <img src="docs/before-after.jpg" alt="Before: a stock Android TV home screen full of promoted content. After: the CleanTheTV home screen with a dock of your own apps." width="800"><br>
+  <sub><i>Concept illustration of the idea, not a screenshot. Real screenshots of the themes are further down.</i></sub>
 </p>
 
 <p align="center">
