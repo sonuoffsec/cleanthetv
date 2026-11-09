@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/banner.jpg" alt="CleanTheTV. Your TV, clean and calm. No ads, no bloat, nothing uninstallable, a pure TV experience." width="800">
+  <img src="docs/banner.jpg" alt="CleanTheTV. Your TV, clean and calm." width="800">
 </p>
 
 <p align="center">
@@ -160,6 +160,19 @@ apps to disable. Those lists come from the upstream project's contributors.
 **Honest status:** CleanTheTV's one-command setup, themes, quote, clock option and guest-cast QR have been tested end to end
 on **one TV**: a Xiaomi MiTV-AXSO0 running Android 9. Other models use the upstream lists, which are community-tested but
 not re-tested here. Please report what happens on yours.
+
+| TV | Android | `setup` | `report` | `privacy` | Launcher + QR | Tested by |
+|---|---|---|---|---|---|---|
+| Xiaomi MiTV-AXSO0 | 9 | works | works | works, reverts cleanly | works | maintainer |
+
+Tried it on another TV? Open an issue with the model, the Android version and what worked, and a row gets added.
+
+### What it never does
+
+- It never uninstalls an app, roots the TV or needs a cable.
+- It never changes anything without ADB access you approved on the TV.
+- It never makes a network request of its own, apart from downloading Google's platform-tools once if `adb` is missing.
+- It never touches system packages the TV needs to boot. `restore` re-enables everything it disabled.
 
 ## FAQ
 
